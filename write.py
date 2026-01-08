@@ -47,9 +47,11 @@ def populate_learners():
     learner_mary = Learner(first_name='Mary', last_name='Smith', dob=date(1991, 6, 12), occupation='dba',
                            social_link='https://www.facebook.com/mary/')
     learner_mary.save()
+
     learner_robert = Learner(first_name='Robert', last_name='Lee', dob=date(1999, 1, 2), occupation='student',
                              social_link='https://www.facebook.com/robert/')
     learner_robert.save()
+    
     learner_david = Learner(first_name='David', last_name='Smith', dob=date(1983, 7, 16),
                             occupation='developer',
                             social_link='https://www.linkedin.com/david/')
